@@ -123,7 +123,7 @@
       <ThingName>Golden Core Fruit</ThingName>
       <Beauty>20</Beauty>
       <Rate>13</Rate>
-      <Desc>Golden Core Fruit</Desc>
+      <Desc>An immortal fruit that allows a mortal to establish a high quality golden core when consumed right before the formation.</Desc>
       <TexPath>res/Sprs/object/object_fenghuangdan01</TexPath>
       <NotDoTongLing>1</NotDoTongLing>
       <Item Lable="Treasure" Kind="Consumable">
@@ -187,7 +187,7 @@
       <ThingName>Clearsight Spirit Dew</ThingName>
       <Beauty>22</Beauty>
       <Rate>14</Rate>
-      <Desc>Clearsight Spirit Dew</Desc>
+      <Desc>Dew from an immortal mountain. When consumed, grants unparallel vision.</Desc>
       <TexPath>res/Sprs/object/object_dimulingye01</TexPath>
       <NotDoTongLing>1</NotDoTongLing>
       <Item Lable="Treasure" Kind="Consumable">
@@ -220,13 +220,14 @@
       <Beauty>26</Beauty>
       <Rate>14</Rate>
       <TexPath>res/Sprs/object/object_AGinkgobiloba</TexPath>
+      <Desc>A fruit of enlightenment. Consume this to vastly improve your learning abilities.</Desc>
       <NotDoTongLing>1</NotDoTongLing>
       <Item Lable="Treasure" Kind="Consumable">
         <NotRandom>1</NotRandom>
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
           <CostItems>
-            <Item name="Item_LingStone" count="1" />
+            <Item name="GD_Chaos_Crystal" count="1" />
           </CostItems>
         </BeMade>
         <Elixir>
