@@ -1,0 +1,367 @@
+﻿<Gongs><List>
+	<Gong Name="Gong_UNIVERSE">  
+		<DisplayName>Heaven and Earth Universe Law</DisplayName>
+		<Desc>An apex law from the Otherworld. Cultivate an inner universe for boundless qi. While cultivation is extremely difficult, cultivators are nigh invincible at the peak.</Desc>
+		<SelectDesc>While cultivating this law allows you to achieve the grandest of heights, it is nearly impossible to reach the end. Do you still wish to cultivate this law?</SelectDesc>
+		<FiveBaseNeed>8,8,8,8,8</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+        <Hide>1</Hide>
+		<Skill>
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>cuiti</li>
+			<li>kaiguang</li>
+		</Skill>
+
+		<Stages>
+
+			<!-- Qi Tempering -->
+			<Stage Name="Stage1" Level="1">
+				<DisplayName>Qi Tempering</DisplayName>
+				<Desc>Gather the essence of Heaven and Earth and refine it within your body.</Desc>
+				<Value>100000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Chance">
+						<DisplayName>Qi Flow</DisplayName>
+						<Desc>Feel the essence of Heaven and Earth and store it within your body.</Desc>
+						<CostTime>180</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Tempering</AddModifier>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Qi Tempering</DisplayName>
+						<Desc>Refine the essense of Heaven and Earth within your body.</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Tempering</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Qi Pulse</DisplayName>
+						<Desc>Condense the essense of Heaven and Earth into a pulse of refined Qi</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<!-- Body Tempering -->
+			<Stage Name="Stage2" Level="2">
+				<DisplayName>Body Tempering</DisplayName>
+				<Desc>Temper the body with refined Qi, improving lifespan and mentality.</Desc>
+				<Value>500000</Value>
+				<Necks>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>Muscle Altering</DisplayName>
+						<Desc>Alters the muscles and enhances them, increasing your vitality.</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Body</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>Organ Strengthening</DisplayName>
+						<Desc>Strengthen your internal organs and enhance your overall vitality.</Desc>
+						<CostTime>480</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Body</AddModifier>
+					</Neck>
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>Bone Tempering</DisplayName>
+						<Desc>Tempering the bones with refined Qi, making the bones stronger than steel.</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Body</AddModifier>
+					</Neck>
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>Marrow Tempering</DisplayName>
+						<Desc>Use refined Qi to temper the marrow.</Desc>
+						<CostTime>720</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Body</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Gate Unlocking</DisplayName>
+						<Desc>Unlock the Eight Inner Hidden Gates</Desc>
+						<CostTime>900</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<AddModifier>Gong_Universe_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<!-- Eight Inner Hidden Gates -->
+			<Stage Name="Stage3" Level="3">
+				<DisplayName>Eight Gates</DisplayName>
+				<Desc>Unlock the Eight Inner Hidden Gates, unleashing massive benefits for your future cultivation.</Desc>
+				<Value>1000000</Value>
+				<Necks>
+					<Neck Location="0.01" Kind="Chance">
+						<DisplayName>Healing</DisplayName>
+						<Desc>Unleash the power of vitality from within.</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Gate_Healing</AddModifier>
+					</Neck>
+					<Neck Location="0.125" Kind="Chance">
+						<DisplayName>Limit</DisplayName>
+						<Desc>Unleash the limits of the mortal body, vastly increasing vitality</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Gate_Limit</AddModifier>
+					</Neck>
+					<Neck Location="0.25" Kind="Chance">
+						<DisplayName>Wonder</DisplayName>
+						<Desc>Unlock the wonders of the body. Enhance your overall performance.</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Gate_Wonder</AddModifier>
+					</Neck>
+					<Neck Location="0.375" Kind="Chance">
+						<DisplayName>Pain</DisplayName>
+						<Desc>Unlocks the hidden strength within the mortal body.</Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Gate_Pain</AddModifier>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Opening</DisplayName>
+						<Desc>Open the hidden potential of the mortal body, maximizing perception and learning.</Desc>
+						<CostTime>1800</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Gate_Opening</AddModifier>
+					</Neck>
+					<Neck Location="0.625" Kind="Chance">
+						<DisplayName>View</DisplayName>
+						<Desc>Maximize your sight and see through all.</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Gate_View</AddModifier>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>Life</DisplayName>
+						<Desc>Unlock unlimited vitality</Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Gate_Life</AddModifier>
+					</Neck>
+					<Neck Location="0.875" Kind="Chance">
+						<DisplayName>Death</DisplayName>
+						<Desc>Unleash the power of vitality from within.</Desc>
+						<CostTime>1800</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Gate_Death</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Houtian</DisplayName>
+						<Desc>Step into the celestial realms and prepare your ascension towards immortality.</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+
+			<!-- Houtian -->
+			<Stage Name="Stage4" Level="4">
+				<DisplayName>Houtian</DisplayName>
+				<Desc>Refine your soul with the essence of Heaven and Earth. Communicate with the Heavens and comprehend the nature of qi with your soul.</Desc>
+				<Value>10000000</Value>
+				<Necks>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Mind Gate</DisplayName>
+						<Desc>Open the Mind Gate and commune with the Heavens.</Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Xiantian</DisplayName>
+						<Desc>Congeal the mind, body, and soul to form an inner cauldron.</Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<AddModifier>Gong_Universe_Core</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<!-- Xiantian -->
+			<Stage Name="Stage5" Level="5">
+				<DisplayName>Xiantian</DisplayName>
+				<Desc>Form an inner cauldron to store the refined Qi within your body.</Desc>
+				<Value>50000000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Core Formation</DisplayName>
+						<Desc>Begin the formation of your Golden Core</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<AddModifier>Gong_Universe_Core</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<!-- Core Formation -->
+			<Stage Name="Stage6" Level="6">
+				<DisplayName>Core Formation</DisplayName>
+				<Desc>Prepare to step into immortality through core formation.</Desc>
+				<Value>100000000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>Golden Core</DisplayName>
+						<Desc>Begin the formation of your Golden Core</Desc>
+						<AddModifier>Gong_Universe_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<!-- Life Destruction (First) -->
+			<Stage Name="Stage7" Level="7">
+				<DisplayName>Life Destruction</DisplayName>
+				<Desc>Temper the Golden Core and begin the first of two core destructions.</Desc>
+				<Value>250000000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>Core Destruction</DisplayName>
+						<Desc>Destroy your core and body and rebuild your mortal self anew.</Desc>
+						<AddModifier>Gong_Universe_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<!-- Life Destruction (Second) -->
+			<Stage Name="Stage8" Level="8">
+				<DisplayName>Nirvana</DisplayName>
+				<Desc>Rebirth the mortal mind, body, and soul while bathing within the essence of the universe.</Desc>
+				<Value>500000000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>Core Reformation</DisplayName>
+						<Desc>Destroy your core and body and rebuild your mortal self anew.</Desc>
+						<AddModifier>Gong_Universe_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<!-- Immortal Golden Core -->
+			<Stage Name="Stage9" Level="9">
+				<DisplayName>Immortal Golden Core</DisplayName>
+				<Desc>A True Golden Core! Formed three times, each greater than the last. Using this invincible core as a foundation, start the pursuit of immortality.</Desc>
+				<Value>1000000000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Incubation</DisplayName>
+						<Desc>Form a Nascent Soul</Desc>
+						<AddModifier>Gong_Universe_Primordial</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<!-- Nascent Soul -->
+			<Stage Name="Stage10" Level="10">
+				<DisplayName>Nascent Soul</DisplayName>
+				<Desc>Form a Nascent Soul and nurtur it using the essence of Heaven and Earth.</Desc>
+				<Value>2000000000</Value>
+				<Necks>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>Maturation</DisplayName>
+						<Desc>The Nascent Soul matures and begins the process of englightenment.</Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Primordial</AddModifier>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Enlightenment</DisplayName>
+						<Desc>The Nascent Soul is enlightened.</Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Primordial</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Divine Spirit</DisplayName>
+						<Desc>The Nascent Soul transforms into a divine spirit.</Desc>
+						<CostTime>1200</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Primordial</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<!-- Divine Spirit -->
+			<Stage Name="Stage11" Level="11">
+				<DisplayName>Divine Spirit</DisplayName>
+				<Desc>Comprehend the Great Dao with the Divine Spirit</Desc>
+				<Value>2000000000</Value>
+				<Necks>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>Dao Seed</DisplayName>
+						<Desc>Condense your life's knowledge and experiences into a dao seed.</Desc>
+						<CostTime>1800</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+					</Neck>
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>Soaring Spirit</DisplayName>
+						<Desc>The dao seed matures and blooms, giving the spirit an endless sense of freedom.</Desc>
+						<CostTime>1800</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Primordial</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>Divine Sea</DisplayName>
+						<Desc>Dao Fruits explode and create a Divine Sea within the body.</Desc>
+						<CostTime>4200</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+						<AddModifier>Gong_Universe_Primordial</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<!-- Divine Sea -->
+			<Stage Name="Stage12" Level="12">
+				<DisplayName>Divine Sea</DisplayName>
+				<Desc>A vast Divine Sea of Qi rests within the body.</Desc>
+				<Value>2100000000</Value>
+				<Necks>
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>Ascension</DisplayName>
+						<Desc>Prepare to ascend.</Desc>
+						<CostTime>3600</CostTime>
+						<SuccessChange>Qi_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.01</FailedChangeAdd>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>Demigod</DisplayName>
+						<Desc>The path of ascension is open!</Desc>
+						<ThunderValue>250000000</ThunderValue>
+						<NeckCountdown>21600</NeckCountdown>
+						<AddModifier>Gong_Universe_God</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+		</Stages>
+	</Gong>
+</List></Gongs>

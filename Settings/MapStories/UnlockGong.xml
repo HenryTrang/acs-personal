@@ -1,0 +1,17 @@
+<Stories><List>	
+	<Story Name="Story_GD_Gong_Universe" Parent="BaseFillingStory">
+		<DisplayName>Heaven and Earth Universe Law</DisplayName>
+		<Desc>[NAME] discovers the Heaven and Earth Universe Law</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Discovered secret law.</Display>
+				<OKResult>
+				<![CDATA[	
+					me:AddMsg(XT("[NAME] discovered a secret law!"));me:UnLockGong("Gong_UNIVERSE");story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

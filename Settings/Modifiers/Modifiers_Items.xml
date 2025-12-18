@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="GD_Qi_Food">
+      <DisplayName>Immortal Food</DisplayName>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>0,0,0,0,0</BaseFive>
+      <Sync>1</Sync>
+      <Display>0</Display>
+      <Properties>
+        <li Name="NpcLingMaxValue" BAddV="10" />
+      </Properties>
+    </Modifier>
+
+    <Modifier Name="GD_Foundation_Fruit">
+      <DisplayName>Golden Foundation</DisplayName>
+      <Desc>A stabilized foundation using a Golden Core Fruit.</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>600</Duration>
+      <BaseFive>5,5,5,5,5</BaseFive>
+      <Sync>1</Sync>
+      <Display>1</Display>
+      <Properties>
+        <li Name="NpcLingMaxValue" AddV="100000" />
+      </Properties>
+    </Modifier>
+
+    <Modifier Name="GD_Long_Life_Fruit">
+      <DisplayName>Thousand Year Pear</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>0,0,0,0,0</BaseFive>
+      <Sync>1</Sync>
+      <Display>0</Display>
+      <Properties>
+        <li Name="MaxAge" BAddV="3000" />
+      </Properties>
+    </Modifier>
+
+    <Modifier Name="GD_Vision_Dew">
+      <DisplayName>Clearsight Spirit Dew</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>0,0,0,0,0</BaseFive>
+      <Sync>1</Sync>
+      <Display>0</Display>
+      <Properties>
+        <li Name="VisionRadius" AddV="40" />
+      </Properties>
+    </Modifier>
+
+    <Modifier Name="GD_Learning_Fruit">
+      <DisplayName>Enlightening Fruit</DisplayName>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>0,0,0,0,0</BaseFive>
+      <Sync>1</Sync>
+      <Display>0</Display>
+      <Properties>
+        <li Name="IntelligenceSkillEXPConstant" BAddP="1" />
+      </Properties>
+    </Modifier>
+
+    <Modifier Name="GD_Immortal_Qi">
+      <DisplayName>Immortal Qi</DisplayName>
+      <Desc>A strand of Immortal Qi courses through the meridians.</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>300</Duration>
+      <BaseFive>0,0,0,0,0</BaseFive>
+      <Sync>1</Sync>
+      <Display>1</Display>
+      <Properties>
+        <li Name="NpcLingMaxValue" AddV="1000000" />
+      </Properties>
+    </Modifier>
+
+    <Modifier Name="GD_Grand_Providence">
+      <DisplayName>Grand Providence</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      <Sync>1</Sync>
+      <Display>0</Display>
+      <Skills>
+        <li Name="Qi" Level="0" LevelOver="5" Type="2" />
+      </Skills>
+      <Properties>
+        <li Name="MindStateBaseValue" AddV="50" />
+        <li Name="NpcFight_FabaoNum" AddV="2" />
+        <li Name="NpcFight_FightSkillSoul" AddV="2" />
+        <li Name="NpcFight_FabaoMaxLingAddP" BAddP="-1" />
+        <li Name="PotentialOfBasepracticeAddValue" AddV="1" />
+        <li Name="NpcFight_ShieldConversionRate" BAddP="0.25" />
+        <li Name="NpcFight_ShieldConversionRateAddP" BAddP="0.25" />
+        <li Name="IntelligenceSkillEXPConstant" AddP="1" />
+      </Properties>
+    </Modifier>
+  </List>
+</ModifierDefs>

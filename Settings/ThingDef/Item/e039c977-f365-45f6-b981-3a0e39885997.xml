@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="GD_Qi_Food" Parent="WanJie_DrugBase">
+      <ThingName>Immortal Food</ThingName>
+      <Rate>13</Rate>
+      <Desc>Food from the realms above. Eating it is said to be both delicious and improves your foundation.</Desc>
+      <TexPath>res/Sprs/object/object_food003</TexPath>
+      <Item Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_LingStone" count="1" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <Nutrition>70</Nutrition>
+          <Water>50</Water>
+          <PracticeNutrition>100</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>GD_Qi_Food</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

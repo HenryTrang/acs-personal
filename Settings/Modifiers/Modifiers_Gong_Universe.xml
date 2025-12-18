@@ -1,0 +1,328 @@
+<ModifierDefs><List>
+	<Modifier Name="Gong_Universe_Qi" Type="Normal">
+		<DisplayName>Qi Shaping</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="10"/>
+			<li Name="NpcLingMaxValue" AddP="0.5"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.25"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.25"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" BAddP="-0.1"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.025"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="0.25"/>
+
+			<li Name="ComfyTMin" AddV="-5"/>
+			<li Name="ComfyTMax" AddV="5"/>	
+			<li Name="ToleranceTMin" AddV="-5"/>
+			<li Name="ToleranceTMax" AddV="20"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.1"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.1"/>
+			
+			<li Name="WorldMapFlySpeedAddP" AddV="1"/>
+			
+			<li Name="NutritionConsumeConstant" AddP="1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.3"/>
+			<li Name="NutritionToJingYuanK" AddV="0.005"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Tempering" Type="Normal">
+		<DisplayName>Qi Tempering</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="NpcLingMaxValue" BAddV="50"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Body" Type="Normal">
+		<DisplayName>Body Tempering</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="20"/>
+			<li Name="NpcLingMaxValue" BAddV="100"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.25"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.1"/>
+
+			<li Name="ComfyTMin" AddV="-5"/>
+			<li Name="ComfyTMax" AddV="10"/>	
+			
+			<li Name="NutritionConsumeConstant" AddP="0.25"/>
+			<li Name="NutritionWaterAutoRecover" AddP="0.05"/>
+			<li Name="NutritionToJingYuanK" AddV="0.005"/>
+
+			<li Name="RecoveryPower" AddP="0.25"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Gate_Healing" Type="Normal">
+		<DisplayName>Gate of Healing</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" BAddV="200"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="LingAbsorbSpeed" BAddP="1"/>
+			<li Name="ComfyTMin" AddV="-10"/>
+			<li Name="ComfyTMax" AddV="30"/>	
+			<li Name="NutritionConsumeConstant" AddP="0.25"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.1"/>
+			<li Name="NutritionToJingYuanK" AddV="0.005"/>
+			<li Name="RecoveryPower" AddV="1"/>
+			<li Name="PainTolerance" AddP="1"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Gate_Limit" Type="Normal">
+		<DisplayName>Gate of Limit</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<BaseFive>2,2,2,2,2</BaseFive>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" BAddV="300"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" BAddP="1"/>
+			<li Name="ToleranceTMin" AddV="-15"/>
+			<li Name="ToleranceTMax" AddV="60"/>
+			<li Name="NutritionConsumeConstant" AddP="0.25"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.1"/>
+			<li Name="NutritionToJingYuanK" AddV="0.01"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Gate_Wonder" Type="Normal">
+		<DisplayName>Gate of Wonder</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" BAddV="50"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="MoveSpeed" BAddP="1"/>
+			<li Name="NutritionConsumeConstant" AddP="1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
+			<li Name="NutritionToJingYuanK" AddV="0.01"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Gate_Pain" Type="Normal">
+		<DisplayName>Gate of Pain</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<BaseFive>3,3,3,3,3</BaseFive>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" BAddV="50"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="LingAbsorbSpeed" BAddP="3"/>
+			<li Name="NutritionConsumeConstant" AddP="1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
+			<li Name="NutritionToJingYuanK" AddV="0.01"/>
+			<li Name="PainTolerance" AddP="10"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Gate_Opening" Type="Normal">
+		<DisplayName>Gate of Opening</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<BaseFive>100,1,1,1,1</BaseFive>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" BAddV="50"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
+			<li Name="IntelligenceSkillEXPConstant" BAddP="5"/>
+			<li Name="VisionRadius" AddP="1"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Gate_View" Type="Normal">
+		<DisplayName>Gate of View</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" BAddV="50"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="VisionRadius" AddV="40"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Gate_Life" Type="Normal">
+		<DisplayName>Gate of Life</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" BAddV="500"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+			<li Name="AgeCostSpeed" AddP="-0.8"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Gate_Death" Type="Normal">
+		<DisplayName>Gate of Death</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<BaseFive>2,2,2,2,2</BaseFive>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" BAddV="500"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="3000"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+			<li Name="AgeCostSpeed" AddP="-0.8"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Core" Type="Normal">
+		<DisplayName>Core Shaping</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="NpcLingMaxValue" AddP="0.75"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Gold" Type="Normal">
+		<DisplayName>Golden Core</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="100"/>
+			<li Name="NpcLingMaxValue" AddP="6"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" BAddP="-0.25"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.2"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="2"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="0.5"/>
+			
+			<li Name="ComfyTMin" AddV="-5"/>
+			<li Name="ComfyTMax" AddV="20"/>	
+			<li Name="ToleranceTMin" AddV="-10"/>
+			<li Name="ToleranceTMax" AddV="40"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.15"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.1"/>
+			
+			<li Name="WorldMapFlySpeedAddP" AddV="2"/>
+			
+			
+			<li Name="NutritionConsumeConstant" AddP="1.5"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
+			<li Name="FatigueConsumeConstant" AddV="-0.2"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_Primordial" Type="Normal">
+		<DisplayName>Primordial Spirit</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="30"/>
+			<li Name="NpcLingMaxValue" AddP="5"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" BAddP="-0.1"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.06"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="1"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="0.5"/>
+			
+			<li Name="ComfyTMin" AddV="-5"/>
+			<li Name="ComfyTMax" AddV="20"/>	
+			<li Name="ToleranceTMin" AddV="-10"/>
+			<li Name="ToleranceTMax" AddV="40"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.1"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.05"/>
+			
+			<li Name="WorldMapFlySpeedAddP" AddV="1"/>
+			
+			
+			<li Name="NutritionConsumeConstant" AddP="1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.3"/>
+			<li Name="FatigueConsumeConstant" AddV="-0.1"/>
+
+			<li Name="DeepPracticeSpeedSpecialCoefficient" BAddP="-0.15"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Gong_Universe_God" Type="Normal">
+		<DisplayName>Demigod</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" BAddV="10000"/>
+			<li Name="NpcLingMaxValue" AddV="100000000"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" BAddP="-1"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+			
+			<li Name="ToleranceTMin" AddV="-100"/>
+			<li Name="ToleranceTMax" AddV="800"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.3"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.1"/>
+			
+			<li Name="WorldMapFlySpeedAddP" AddV="5"/>
+			
+			<li Name="MindStateBaseValue" AddV="100"/>
+			<li Name="BaseEmotionAddV" AddV="200"/>
+			<li Name="RecoveryPower" AddP="20"/>
+			<li Name="PainTolerance" AddP="20"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="1"/>
+
+			<li Name="NutritionConsumeConstant" AddP="10"/>
+			<li Name="NutritionWaterAutoRecover" AddV="10"/>
+			<li Name="WaterConsumeConstant" AddV="-10"/>
+			<li Name="HappyConsumeConstant" AddV="-10"/>
+		</Properties>
+	</Modifier>
+
+</List></ModifierDefs>
