@@ -91,7 +91,7 @@
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
           <CostItems>
-            <Item name="Item_LingStone" count="1" />
+            <Item name="GD_Chaos_Stone" count="1" />
           </CostItems>
         </BeMade>
         <Food>
@@ -163,7 +163,7 @@
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
           <CostItems>
-            <Item name="GD_Chaos_Crystal" count="1" />
+            <Item name="GD_Chaos_Stone" count="1" />
           </CostItems>
         </BeMade>
         <Elixir>
@@ -195,7 +195,7 @@
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
           <CostItems>
-            <Item name="GD_Chaos_Crystal" count="1" />
+            <Item name="GD_Chaos_Stone" count="1" />
           </CostItems>
         </BeMade>
         <Elixir>
@@ -227,7 +227,7 @@
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
           <CostItems>
-            <Item name="GD_Chaos_Crystal" count="1" />
+            <Item name="GD_Chaos_Stone" count="1" />
           </CostItems>
         </BeMade>
         <Elixir>
@@ -251,7 +251,7 @@
       <ThingName>Immortal Qi</ThingName>
       <Beauty>30</Beauty>
       <Rate>14</Rate>
-      <Desc>Immortal Qi</Desc>
+      <Desc>A strand of Immortal Qi. Consuming it will allow Qi to flow through one's meridians seamlessly.</Desc>
       <TexPath>res/Sprs/object/object_lingyuanzhong01</TexPath>
       <NotDoTongLing>1</NotDoTongLing>
       <Item Lable="Treasure" Kind="Consumable">
@@ -259,7 +259,7 @@
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
           <CostItems>
-            <Item name="GD_Chaos_Crystal" count="1" />
+            <Item name="GD_Chaos_Stone" count="1" />
           </CostItems>
         </BeMade>
         <Elixir>
@@ -290,7 +290,7 @@
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
           <CostItems>
-            <Item name="GD_Chaos_Crystal" count="10" />
+            <Item name="GD_Chaos_Crystal" count="1" />
           </CostItems>
         </BeMade>
         <Elixir>
@@ -321,7 +321,7 @@
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
           <CostItems>
-            <Item name="GD_Chaos_Crystal" count="10" />
+            <Item name="GD_Chaos_Crystal" count="1" />
           </CostItems>
         </BeMade>
         <NotRandom>1</NotRandom>
