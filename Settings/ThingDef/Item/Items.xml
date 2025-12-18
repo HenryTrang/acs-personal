@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+
+    <ThingDef Type="Item" Name="GD_Chaos_Stone" Parent="WanJie_DrugBase">
+      <ThingName>Chaos Stone</ThingName>
+      <Beauty>25</Beauty>
+      <Rate>9</Rate>
+      <Desc>A special kind of spirit stone found in the primordial origins of the Boundless Universe.</Desc>
+      <TexPath>res/Sprs/object/object_lingshi01</TexPath>
+      <MaxStack>1000</MaxStack>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Lable="LingStone" Kind="Consumable">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_LingStone" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Ling>100000</Ling>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+        <Prices>
+            <BaseCount>0</BaseCount>
+            <Prices>
+                <PriceTag>100</PriceTag>
+            </Prices>
+        </Prices>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Chaos_Crystal" Parent="WanJie_DrugBase">
+      <ThingName>Chaos Crystal</ThingName>
+      <Beauty>40</Beauty>
+      <Rate>12</Rate>
+      <Desc>A special kind of spirit crystal condensed from the primordial essence.</Desc>
+      <TexPath>res/Sprs/object/object_lingjing01</TexPath>
+      <NotDoTongLing>1</NotDoTongLing>
+      <MaxStack>1000</MaxStack>
+      <Item Lable="LingStone" Kind="Consumable">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="GD_Chaos_Stone" count="10" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Ling>5000000</Ling>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+        <Prices>
+            <BaseCount>0</BaseCount>
+            <Prices>
+                <PriceTag>10000</PriceTag>
+            </Prices>
+        </Prices>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Qi_Food" Parent="WanJie_DrugBase">
+      <ThingName>Immortal Food</ThingName>
+      <Beauty>15</Beauty>
+      <Rate>13</Rate>
+      <Desc>Food from the realms above. Eating it is said to be both delicious and improves your foundation.</Desc>
+      <TexPath>res/Sprs/object/object_food003</TexPath>
+      <MaxStack>1000</MaxStack>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Lable="Food" Kind="Consumable">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_LingStone" count="1" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <Nutrition>70</Nutrition>
+          <Water>50</Water>
+          <PracticeNutrition>100</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <Modifier>GD_Qi_Food</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Core_Fruit" Parent="WanJie_DrugBase">
+      <ElementKind>Huo</ElementKind>
+      <Element>
+        <Kind>Huo</Kind>
+      </Element>
+      <ThingName>Golden Core Fruit</ThingName>
+      <Beauty>20</Beauty>
+      <Rate>13</Rate>
+      <Desc>Golden Core Fruit</Desc>
+      <TexPath>res/Sprs/object/object_fenghuangdan01</TexPath>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Lable="Treasure" Kind="Consumable">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="GD_Chaos_Stone" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <Modifier>GD_Foundation_Fruit</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Long_Life_Fruit" Parent="WanJie_DrugBase">
+      <ThingName>Ten Thousand Year Pear</ThingName>
+      <Beauty>20</Beauty>
+      <Rate>14</Rate>
+      <Desc>An immortal fruit from the realms above. It is said that eating one will grant eternal life.</Desc>
+      <TexPath>res/Sprs/object/object_pear001</TexPath>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Lable="Treasure" Kind="Consumable">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="GD_Chaos_Crystal" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <Modifier>GD_Long_Life_Fruit</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Vision_Dew" Parent="WanJie_DrugBase">
+      <ThingName>Clearsight Spirit Dew</ThingName>
+      <Beauty>22</Beauty>
+      <Rate>14</Rate>
+      <Desc>Clearsight Spirit Dew</Desc>
+      <TexPath>res/Sprs/object/object_dimulingye01</TexPath>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Lable="Treasure" Kind="Consumable">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="GD_Chaos_Crystal" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <Modifier>GD_Vision_Dew</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Learning_Fruit" Parent="WanJie_DrugBase">
+      <ThingName>Enlightening Fruit</ThingName>
+      <Beauty>26</Beauty>
+      <Rate>14</Rate>
+      <TexPath>res/Sprs/object/object_AGinkgobiloba</TexPath>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Lable="Treasure" Kind="Consumable">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_LingStone" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0.9</Fesistance>
+          <Modifier>GD_Learning_Fruit</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Immortal_Qi" Parent="WanJie_DrugBase">
+      <ThingName>Immortal Qi</ThingName>
+      <Beauty>30</Beauty>
+      <Rate>14</Rate>
+      <Desc>Immortal Qi</Desc>
+      <TexPath>res/Sprs/object/object_lingyuanzhong01</TexPath>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Lable="Treasure" Kind="Consumable">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="GD_Chaos_Crystal" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Modifier>GD_Immortal_Qi</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Grand_Providence" Parent="WanJie_DrugBase">
+      <ThingName>Grand Providence</ThingName>
+      <Beauty>50</Beauty>
+      <Rate>15</Rate>
+      <Desc>A great destiny belongs to whoever consumes this condensed essence of providence.</Desc>
+      <TexPath>res/Sprs/object/object_xianshishennian01</TexPath>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Kind="Consumable">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="GD_Chaos_Crystal" count="10" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <Modifier>GD_Grand_Providence</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Gong_Universe_Item" Parent="WanJie_DrugBase">
+      <ThingName>Heaven and Earth Universe Law</ThingName>
+      <Beauty>30</Beauty>
+      <Rate>15</Rate>
+      <Desc>An invincible supreme law.</Desc>
+      <TexPath>res/Sprs/object/object_miji01</TexPath>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Lable="Treasure">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="GD_Chaos_Crystal" count="10" />
+          </CostItems>
+        </BeMade>
+        <NotRandom>1</NotRandom>
+        <FabaoSuffix>卷</FabaoSuffix>				
+      </Item>
+        <StoryBnts>
+            <li Name="Examine" Desc="Examine the law" Story="Story_GD_Gong_Universe" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+        </StoryBnts>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+  </List>
+</ThingDefs>
+
