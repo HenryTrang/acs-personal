@@ -375,39 +375,3 @@
 
   </List>
 </ThingDefs>
-
-<?xml version="1.0" encoding="utf-8"?>
-<ThingDefs>
-  <List>
-    <ThingDef Type="Item" Name="c9d4e8d4-6dd9-4f5d-a02c-5f30c17f5183" Parent="WanJie_DrugBase">
-      <ThingName>Evolution Fruit</ThingName>
-      <Rate>11</Rate>
-      <TexPath>res/Sprs/object/object_shedan01</TexPath>
-      <OtherWorld>1</OtherWorld>
-      <Item Kind="Consumable">
-        <BeMade>
-          <CostStuffCount>1</CostStuffCount>
-          <CostItems>
-            <Item name="Item_LingStone" count="1" />
-          </CostItems>
-        </BeMade>
-        <Elixir>
-          <ZhuJi>0</ZhuJi>
-          <Fesistance>0</Fesistance>
-          <Ling>0</Ling>
-          <Modifier>251276d1-f6e2-43ea-8e06-bd0588cfabc6</Modifier>
-          <DiscipleOnly>1</DiscipleOnly>
-        </Elixir>
-      </Item>
-      <CostStuffCount>1</CostStuffCount>
-      <ProduceMode>
-        <ProduceBuildings>
-          <li>
-            <Building>MaterialWorkPlace</Building>
-            <Count>1</Count>
-          </li>
-        </ProduceBuildings>
-      </ProduceMode>
-    </ThingDef>
-  </List>
-</ThingDefs>
