@@ -26,6 +26,8 @@
             <BaseCount>0</BaseCount>
             <Prices>
                 <PriceTag>100</PriceTag>
+                <BuyPrice>1000</BuyPrice>
+                <SalePrice>100</SalePrice>
             </Prices>
         </Prices>
       </Item>
@@ -33,7 +35,7 @@
       <ProduceMode>
         <ProduceBuildings>
           <li>
-            <Building>Bonfire</Building>
+            <Building>MaterialWorkPlace</Building>
             <Count>1</Count>
           </li>
         </ProduceBuildings>
@@ -64,6 +66,8 @@
             <BaseCount>0</BaseCount>
             <Prices>
                 <PriceTag>10000</PriceTag>
+                <BuyPrice>100000</BuyPrice>
+                <SalePrice>10000</SalePrice>
             </Prices>
         </Prices>
       </Item>
@@ -71,7 +75,7 @@
       <ProduceMode>
         <ProduceBuildings>
           <li>
-            <Building>Bonfire</Building>
+            <Building>MaterialWorkPlace</Building>
             <Count>1</Count>
           </li>
         </ProduceBuildings>
@@ -108,7 +112,7 @@
       <ProduceMode>
         <ProduceBuildings>
           <li>
-            <Building>Bonfire</Building>
+            <Building>MaterialWorkPlace</Building>
             <Count>1</Count>
           </li>
         </ProduceBuildings>
@@ -144,7 +148,7 @@
       <ProduceMode>
         <ProduceBuildings>
           <li>
-            <Building>Bonfire</Building>
+            <Building>MaterialWorkPlace</Building>
             <Count>1</Count>
           </li>
         </ProduceBuildings>
@@ -176,7 +180,7 @@
       <ProduceMode>
         <ProduceBuildings>
           <li>
-            <Building>Bonfire</Building>
+            <Building>MaterialWorkPlace</Building>
             <Count>1</Count>
           </li>
         </ProduceBuildings>
@@ -208,7 +212,36 @@
       <ProduceMode>
         <ProduceBuildings>
           <li>
-            <Building>Bonfire</Building>
+            <Building>MaterialWorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Evolution_Fruit" Parent="WanJie_DrugBase">
+      <ThingName>Evolution Fruit</ThingName>
+      <Beauty>26</Beauty>
+      <Rate>14</Rate>
+      <TexPath>res/Sprs/object/object_shedan01</TexPath>
+      <Item Lable="Treasure" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="GD_Chaos_Stone" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <Modifier>GD_Evolution_Fruit</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MaterialWorkPlace</Building>
             <Count>1</Count>
           </li>
         </ProduceBuildings>
@@ -240,7 +273,7 @@
       <ProduceMode>
         <ProduceBuildings>
           <li>
-            <Building>Bonfire</Building>
+            <Building>MaterialWorkPlace</Building>
             <Count>1</Count>
           </li>
         </ProduceBuildings>
@@ -271,7 +304,7 @@
       <ProduceMode>
         <ProduceBuildings>
           <li>
-            <Building>Bonfire</Building>
+            <Building>MaterialWorkPlace</Building>
             <Count>1</Count>
           </li>
         </ProduceBuildings>
@@ -303,7 +336,7 @@
       <ProduceMode>
         <ProduceBuildings>
           <li>
-            <Building>Bonfire</Building>
+            <Building>MaterialWorkPlace</Building>
             <Count>1</Count>
           </li>
         </ProduceBuildings>
@@ -333,7 +366,7 @@
       <ProduceMode>
         <ProduceBuildings>
           <li>
-            <Building>Bonfire</Building>
+            <Building>MaterialWorkPlace</Building>
             <Count>1</Count>
           </li>
         </ProduceBuildings>
@@ -343,3 +376,38 @@
   </List>
 </ThingDefs>
 
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="c9d4e8d4-6dd9-4f5d-a02c-5f30c17f5183" Parent="WanJie_DrugBase">
+      <ThingName>Evolution Fruit</ThingName>
+      <Rate>11</Rate>
+      <TexPath>res/Sprs/object/object_shedan01</TexPath>
+      <OtherWorld>1</OtherWorld>
+      <Item Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_LingStone" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>0</Ling>
+          <Modifier>251276d1-f6e2-43ea-8e06-bd0588cfabc6</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MaterialWorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

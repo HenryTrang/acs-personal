@@ -50,6 +50,15 @@
       </Properties>
     </Modifier>
 
+    <Modifier Name="GD_Evolution_Fruit">
+      <DisplayName>Evolved</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>20,20,20,20,20</BaseFive>
+      <Sync>1</Sync>
+      <Display>0</Display>
+    </Modifier>
+
     <Modifier Name="GD_Learning_Fruit">
       <DisplayName>Enlightening Fruit</DisplayName>
       <MaxStack>0</MaxStack>
