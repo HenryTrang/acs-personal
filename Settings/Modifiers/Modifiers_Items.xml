@@ -80,7 +80,7 @@
       <Sync>1</Sync>
       <Display>1</Display>
       <Properties>
-        <li Name="NpcLingMaxValue" AddV="1000000" />
+        <li Name="NpcLingMaxValue" AddV="60000000" />
       </Properties>
     </Modifier>
 
