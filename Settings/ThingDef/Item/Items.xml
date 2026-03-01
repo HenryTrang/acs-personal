@@ -287,7 +287,7 @@
       <Desc>Alchemy Fruit</Desc>
       <TexPath>res/Sprs/object/object_fenghunzhenlingdan01</TexPath>
       <NotDoTongLing>1</NotDoTongLing>
-      <Item Kind="Treasure">
+      <Item Lable="Treasure" Kind="Consumable">
         <NotRandom>1</NotRandom>
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
