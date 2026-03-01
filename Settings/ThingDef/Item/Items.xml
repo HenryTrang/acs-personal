@@ -55,7 +55,7 @@
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
           <CostItems>
-            <Item name="GD_Chaos_Stone" count="10" />
+            <Item name="GD_Chaos_Stone" count="1" />
           </CostItems>
         </BeMade>
         <Elixir>
@@ -280,6 +280,39 @@
       </ProduceMode>
     </ThingDef>
 
+    <ThingDef Type="Item" Name="GD_Alchemy_Fruit" Parent="WanJie_DrugBase">
+      <ThingName>Alchemy Fruit</ThingName>
+      <Beauty>30</Beauty>
+      <Rate>14</Rate>
+      <Desc>Alchemy Fruit</Desc>
+      <TexPath>res/Sprs/object/object_fenghunzhenlingdan01</TexPath>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Kind="Treasure">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="GD_Chaos_Stone" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>GD_Alchemy_Fruit</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MaterialWorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
     <ThingDef Type="Item" Name="GD_Immortal_Qi" Parent="WanJie_DrugBase">
       <ThingName>Immortal Qi</ThingName>
       <Beauty>30</Beauty>
@@ -318,7 +351,7 @@
       <Desc>A great destiny belongs to whoever consumes this condensed essence of providence.</Desc>
       <TexPath>res/Sprs/object/object_xianshishennian01</TexPath>
       <NotDoTongLing>1</NotDoTongLing>
-      <Item Kind="Consumable">
+      <Item Kind="Treasure">
         <NotRandom>1</NotRandom>
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
@@ -330,6 +363,40 @@
           <Fesistance>0</Fesistance>
           <Modifier>GD_Grand_Providence</Modifier>
           <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MaterialWorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+
+    <ThingDef Type="Item" Name="GD_Empyrean_Soul" Parent="WanJie_DrugBase">
+      <ThingName>Empyrean Soul</ThingName>
+      <Beauty>50</Beauty>
+      <Rate>15</Rate>
+      <Desc>Empyrean Soul</Desc>
+      <TexPath>res/Sprs/object/object_zhengzhi01</TexPath>
+      <NotDoTongLing>1</NotDoTongLing>
+      <Item Kind="Treasure">
+        <NotRandom>1</NotRandom>
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="GD_Chaos_Crystal" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>GD_Empyrean_Soul</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
         </Elixir>
       </Item>
       <CostStuffCount>1</CostStuffCount>

@@ -71,6 +71,18 @@
       </Properties>
     </Modifier>
 
+    <Modifier Name="GD_Alchemy_Fruit">
+      <DisplayName>Alchemy Fruit</DisplayName>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>0,0,0,0,0</BaseFive>
+      <Sync>1</Sync>
+      <Display>0</Display>
+      <Properties>
+        <li Name="DanMake_YieldAddP" BAddP="0.1" />
+      </Properties>
+    </Modifier>
+
     <Modifier Name="GD_Immortal_Qi">
       <DisplayName>Immortal Qi</DisplayName>
       <Desc>A strand of Immortal Qi courses through the meridians.</Desc>
@@ -94,14 +106,34 @@
         <li Name="Qi" Level="0" LevelOver="5" Type="2" />
       </Skills>
       <Properties>
-        <li Name="MindStateBaseValue" AddV="50" />
+        <li Name="MindStateBaseValue" AddV="100" />
         <li Name="NpcFight_FabaoNum" AddV="2" />
-        <li Name="NpcFight_FightSkillSoul" AddV="2" />
+        <li Name="NpcFight_FightSkillSoul" AddV="4" />
         <li Name="NpcFight_FabaoMaxLingAddP" BAddP="-1" />
         <li Name="PotentialOfBasepracticeAddValue" AddV="1" />
+        <li Name="MaxAccumulativeLingAddV" AddV="10000"/>
         <li Name="NpcFight_ShieldConversionRate" BAddP="0.25" />
         <li Name="NpcFight_ShieldConversionRateAddP" BAddP="0.25" />
         <li Name="IntelligenceSkillEXPConstant" AddP="1" />
+      </Properties>
+    </Modifier>
+
+    <Modifier Name="GD_Empyrean_Soul">
+      <DisplayName>Empyrean Soul</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>20,20,20,20,20</BaseFive>
+      <Sync>1</Sync>
+      <Display>0</Display>
+      <Properties>
+        <li Name="NpcLingMaxValue" AddV="150000" BAddV="0" />
+        <li Name="NpcFight_FabaoPowerAddP" BAddP="1"/>
+        <li Name="NpcFight_FabaoLingRecoverAddP" BAddP="1"/>
+        <li Name="NpcFight_FabaoMaxLingAddP" BAddP="-0.5"/>
+        <li Name="NpcFight_ZhenKeyPointNum" AddV="4" />
+        <li Name="NpcFight_ZhenEnginePower" AddV="40" />
+        <li Name="ExperiencePrestigeAddP" AddV="-1" />
+        <li Name="MaxAge" AddP="10" BAddP="10" />
       </Properties>
     </Modifier>
   </List>

@@ -7,7 +7,7 @@
 		<Properties>  
 			<li Name="MaxAge" AddV="10"/>
 			<li Name="NpcLingMaxValue" AddP="0.5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
 			
 			<li Name="NpcFight_FabaoPowerAddP" AddP="0.25"/>
 			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.25"/>
@@ -30,7 +30,7 @@
 			
 			<li Name="NutritionConsumeConstant" AddP="1"/>
 			<li Name="NutritionWaterAutoRecover" AddV="0.3"/>
-			<li Name="NutritionToJingYuanK" AddV="0.005"/>
+			<li Name="NutritionToJingYuanK" AddV="0.05" />
 		</Properties>
 	</Modifier> 
 
@@ -41,7 +41,7 @@
 		<Display>0</Display>
 		<Properties>  
 			<li Name="NpcLingMaxValue" BAddV="50"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
 		</Properties>
 	</Modifier> 
 
@@ -53,7 +53,7 @@
 		<Properties>  
 			<li Name="MaxAge" AddV="20"/>
 			<li Name="NpcLingMaxValue" BAddV="100"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
 
 			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.25"/>
 			<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.1"/>
@@ -63,7 +63,7 @@
 			
 			<li Name="NutritionConsumeConstant" AddP="0.25"/>
 			<li Name="NutritionWaterAutoRecover" AddP="0.05"/>
-			<li Name="NutritionToJingYuanK" AddV="0.005"/>
+			<li Name="NutritionToJingYuanK" AddV="0.05" />
 
 			<li Name="RecoveryPower" AddP="0.25"/>
 		</Properties>
@@ -78,13 +78,13 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="200"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
 			<li Name="LingAbsorbSpeed" BAddP="1"/>
 			<li Name="ComfyTMin" AddV="-10"/>
 			<li Name="ComfyTMax" AddV="30"/>	
 			<li Name="NutritionConsumeConstant" AddP="0.25"/>
 			<li Name="NutritionWaterAutoRecover" AddV="0.1"/>
-			<li Name="NutritionToJingYuanK" AddV="0.005"/>
+			<li Name="NutritionToJingYuanK" AddV="0.05" />
 			<li Name="RecoveryPower" AddV="1"/>
 			<li Name="PainTolerance" AddP="1"/>
 		</Properties>
@@ -99,13 +99,14 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="300"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
 			<li Name="LingAbsorbSpeed" BAddP="1"/>
 			<li Name="ToleranceTMin" AddV="-15"/>
 			<li Name="ToleranceTMax" AddV="60"/>
 			<li Name="NutritionConsumeConstant" AddP="0.25"/>
 			<li Name="NutritionWaterAutoRecover" AddV="0.1"/>
-			<li Name="NutritionToJingYuanK" AddV="0.01"/>
+			<li Name="NutritionToJingYuanK" AddV="0.1"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.25"/>
 		</Properties>
 	</Modifier> 
 
@@ -118,11 +119,12 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="50"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
 			<li Name="MoveSpeed" BAddP="1"/>
 			<li Name="NutritionConsumeConstant" AddP="1"/>
 			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
-			<li Name="NutritionToJingYuanK" AddV="0.01"/>
+			<li Name="NutritionToJingYuanK" AddV="0.1"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.25"/>
 		</Properties>
 	</Modifier> 
 
@@ -135,11 +137,11 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="50"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="5000"/>
 			<li Name="LingAbsorbSpeed" BAddP="3"/>
 			<li Name="NutritionConsumeConstant" AddP="1"/>
 			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
-			<li Name="NutritionToJingYuanK" AddV="0.01"/>
+			<li Name="NutritionToJingYuanK" AddV="0.1"/>
 			<li Name="PainTolerance" AddP="10"/>
 		</Properties>
 	</Modifier> 
@@ -153,9 +155,11 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="50"/>
 			<li Name="MindStateBaseValue" AddV="20"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
 			<li Name="IntelligenceSkillEXPConstant" BAddP="5"/>
 			<li Name="VisionRadius" AddP="1"/>
+
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
 		</Properties>
 	</Modifier> 
 
@@ -168,7 +172,7 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="50"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="5000"/>
 			<li Name="VisionRadius" AddV="40"/>
 		</Properties>
 	</Modifier> 
@@ -182,7 +186,8 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="500"/>
 			<li Name="MindStateBaseValue" AddV="20"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
+			<li Name="NpcLingMaxValue" AddP="0.5"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
 			<li Name="LingAbsorbSpeed" AddP="5"/>
 			<li Name="AgeCostSpeed" AddP="-0.8"/>
 		</Properties>
@@ -197,7 +202,8 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="500"/>
 			<li Name="MindStateBaseValue" AddV="20"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="3000"/>
+			<li Name="NpcLingMaxValue" AddP="0.5"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="15000"/>
 			<li Name="LingAbsorbSpeed" AddP="5"/>
 			<li Name="AgeCostSpeed" AddP="-0.8"/>
 		</Properties>
@@ -210,7 +216,7 @@
 		<Display>0</Display>
 		<Properties>  
 			<li Name="NpcLingMaxValue" AddP="0.75"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
 		</Properties>
 	</Modifier> 
 
@@ -220,7 +226,7 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Properties>  
-			<li Name="MaxAge" AddV="100"/>
+			<li Name="MaxAge" BAddV="100"/>
 			<li Name="NpcLingMaxValue" AddP="6"/>
 			
 			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/>
@@ -255,7 +261,7 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Properties>  
-			<li Name="MaxAge" AddV="30"/>
+			<li Name="MaxAge" BAddV="300"/>
 			<li Name="NpcLingMaxValue" AddP="5"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
 			
