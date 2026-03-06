@@ -20,7 +20,7 @@
 			<Stage Name="Stage1" Level="1">
 				<DisplayName>Qi Tempering</DisplayName>
 				<Desc>Gather the essence of Heaven and Earth and refine it within your body.</Desc>
-				<Value>100000</Value>
+				<Value>10000</Value>
 				<Necks>
 					<Neck Location="0.25" Kind="Chance">
 						<DisplayName>Qi Flow</DisplayName>
@@ -53,7 +53,7 @@
 			<Stage Name="Stage2" Level="2">
 				<DisplayName>Body Tempering</DisplayName>
 				<Desc>Temper the body with refined Qi, improving lifespan and mentality.</Desc>
-				<Value>500000</Value>
+				<Value>25000</Value>
 				<Necks>
 					<Neck Location="0.2" Kind="Chance">
 						<DisplayName>Muscle Altering</DisplayName>
@@ -101,9 +101,9 @@
 			<Stage Name="Stage3" Level="3">
 				<DisplayName>Eight Gates</DisplayName>
 				<Desc>Unlock the Eight Inner Hidden Gates, unleashing massive benefits for your future cultivation.</Desc>
-				<Value>1000000</Value>
+				<Value>100000</Value>
 				<Necks>
-					<Neck Location="0.01" Kind="Chance">
+					<Neck Location="0.05" Kind="Chance">
 						<DisplayName>Healing</DisplayName>
 						<Desc>Unleash the power of vitality from within.</Desc>
 						<CostTime>600</CostTime>
@@ -183,7 +183,7 @@
 			<Stage Name="Stage4" Level="4">
 				<DisplayName>Houtian</DisplayName>
 				<Desc>Refine your soul with the essence of Heaven and Earth. Communicate with the Heavens and comprehend the nature of qi with your soul.</Desc>
-				<Value>10000000</Value>
+				<Value>250000</Value>
 				<Necks>
 					<Neck Location="0.5" Kind="Chance">
 						<DisplayName>Mind Gate</DisplayName>
@@ -206,7 +206,7 @@
 			<Stage Name="Stage5" Level="5">
 				<DisplayName>Xiantian</DisplayName>
 				<Desc>Form an inner cauldron to store the refined Qi within your body.</Desc>
-				<Value>50000000</Value>
+				<Value>500000</Value>
 				<Necks>
 					<Neck Location="1" Kind="Chance">
 						<DisplayName>Core Formation</DisplayName>
@@ -222,7 +222,7 @@
 			<Stage Name="Stage6" Level="6">
 				<DisplayName>Core Formation</DisplayName>
 				<Desc>Prepare to step into immortality through core formation.</Desc>
-				<Value>100000000</Value>
+				<Value>1000000</Value>
 				<Necks>
 					<Neck Location="1" Kind="Gold">
 						<DisplayName>Golden Core</DisplayName>
@@ -236,7 +236,7 @@
 			<Stage Name="Stage7" Level="7">
 				<DisplayName>Life Destruction</DisplayName>
 				<Desc>Temper the Golden Core and begin the first of two core destructions.</Desc>
-				<Value>250000000</Value>
+				<Value>10000000</Value>
 				<Necks>
 					<Neck Location="1" Kind="Gold">
 						<DisplayName>Core Destruction</DisplayName>
@@ -250,7 +250,7 @@
 			<Stage Name="Stage8" Level="8">
 				<DisplayName>Nirvana</DisplayName>
 				<Desc>Rebirth the mortal mind, body, and soul while bathing within the essence of the universe.</Desc>
-				<Value>500000000</Value>
+				<Value>100000000</Value>
 				<Necks>
 					<Neck Location="1" Kind="Gold">
 						<DisplayName>Core Reformation</DisplayName>
@@ -264,7 +264,7 @@
 			<Stage Name="Stage9" Level="9">
 				<DisplayName>Immortal Golden Core</DisplayName>
 				<Desc>A True Golden Core! Formed three times, each greater than the last. Using this invincible core as a foundation, start the pursuit of immortality.</Desc>
-				<Value>1000000000</Value>
+				<Value>500000000</Value>
 				<Necks>
 					<Neck Location="1" Kind="Chance">
 						<DisplayName>Incubation</DisplayName>
@@ -278,7 +278,7 @@
 			<Stage Name="Stage10" Level="10">
 				<DisplayName>Nascent Soul</DisplayName>
 				<Desc>Form a Nascent Soul and nurtur it using the essence of Heaven and Earth.</Desc>
-				<Value>2000000000</Value>
+				<Value>1000000000</Value>
 				<Necks>
 					<Neck Location="0.2" Kind="Chance">
 						<DisplayName>Maturation</DisplayName>
@@ -311,7 +311,7 @@
 			<Stage Name="Stage11" Level="11">
 				<DisplayName>Divine Spirit</DisplayName>
 				<Desc>Comprehend the Great Dao with the Divine Spirit</Desc>
-				<Value>2000000000</Value>
+				<Value>1200000000</Value>
 				<Necks>
 					<Neck Location="0.3" Kind="Chance">
 						<DisplayName>Dao Seed</DisplayName>
@@ -343,7 +343,7 @@
 			<Stage Name="Stage12" Level="12">
 				<DisplayName>Divine Sea</DisplayName>
 				<Desc>A vast Divine Sea of Qi rests within the body.</Desc>
-				<Value>2100000000</Value>
+				<Value>2000000000</Value>
 				<Necks>
 					<Neck Location="0.8" Kind="Chance">
 						<DisplayName>Ascension</DisplayName>

@@ -7,7 +7,7 @@
 		<Properties>  
 			<li Name="MaxAge" AddV="10"/>
 			<li Name="NpcLingMaxValue" AddP="0.5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="500"/>
 			
 			<li Name="NpcFight_FabaoPowerAddP" AddP="0.25"/>
 			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.25"/>
@@ -53,7 +53,7 @@
 		<Properties>  
 			<li Name="MaxAge" AddV="20"/>
 			<li Name="NpcLingMaxValue" BAddV="100"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
 
 			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.25"/>
 			<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.1"/>
@@ -78,7 +78,7 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="200"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
 			<li Name="LingAbsorbSpeed" BAddP="1"/>
 			<li Name="ComfyTMin" AddV="-10"/>
 			<li Name="ComfyTMax" AddV="30"/>	
@@ -99,7 +99,7 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="300"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
 			<li Name="LingAbsorbSpeed" BAddP="1"/>
 			<li Name="ToleranceTMin" AddV="-15"/>
 			<li Name="ToleranceTMax" AddV="60"/>
@@ -119,7 +119,7 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="50"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
 			<li Name="MoveSpeed" BAddP="1"/>
 			<li Name="NutritionConsumeConstant" AddP="1"/>
 			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
@@ -137,7 +137,7 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="50"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="5000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
 			<li Name="LingAbsorbSpeed" BAddP="3"/>
 			<li Name="NutritionConsumeConstant" AddP="1"/>
 			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
@@ -155,7 +155,7 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="50"/>
 			<li Name="MindStateBaseValue" AddV="20"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
 			<li Name="IntelligenceSkillEXPConstant" BAddP="5"/>
 			<li Name="VisionRadius" AddP="1"/>
 
@@ -172,7 +172,7 @@
 		<Properties>  
 			<li Name="MaxAge" BAddV="50"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="5000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
 			<li Name="VisionRadius" AddV="40"/>
 		</Properties>
 	</Modifier> 
@@ -187,7 +187,7 @@
 			<li Name="MaxAge" BAddV="500"/>
 			<li Name="MindStateBaseValue" AddV="20"/>
 			<li Name="NpcLingMaxValue" AddP="0.5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="3000"/>
 			<li Name="LingAbsorbSpeed" AddP="5"/>
 			<li Name="AgeCostSpeed" AddP="-0.8"/>
 		</Properties>
@@ -203,7 +203,7 @@
 			<li Name="MaxAge" BAddV="500"/>
 			<li Name="MindStateBaseValue" AddV="20"/>
 			<li Name="NpcLingMaxValue" AddP="0.5"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="15000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="4000"/>
 			<li Name="LingAbsorbSpeed" AddP="5"/>
 			<li Name="AgeCostSpeed" AddP="-0.8"/>
 		</Properties>
@@ -216,7 +216,7 @@
 		<Display>0</Display>
 		<Properties>  
 			<li Name="NpcLingMaxValue" AddP="0.75"/>
-			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="5000"/>
 		</Properties>
 	</Modifier> 
 
@@ -289,7 +289,7 @@
 			<li Name="NutritionWaterAutoRecover" AddV="0.3"/>
 			<li Name="FatigueConsumeConstant" AddV="-0.1"/>
 
-			<li Name="DeepPracticeSpeedSpecialCoefficient" BAddP="-0.15"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" BAddP="-0.2"/>
 		</Properties>
 	</Modifier> 
 

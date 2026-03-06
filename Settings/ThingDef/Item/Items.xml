@@ -351,7 +351,7 @@
       <Desc>A great destiny belongs to whoever consumes this condensed essence of providence.</Desc>
       <TexPath>res/Sprs/object/object_xianshishennian01</TexPath>
       <NotDoTongLing>1</NotDoTongLing>
-      <Item Kind="Treasure">
+      <Item Lable="Treasure">
         <NotRandom>1</NotRandom>
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
@@ -383,7 +383,7 @@
       <Desc>Empyrean Soul</Desc>
       <TexPath>res/Sprs/object/object_zhengzhi01</TexPath>
       <NotDoTongLing>1</NotDoTongLing>
-      <Item Kind="Treasure">
+      <Item Lable="Treasure">
         <NotRandom>1</NotRandom>
         <BeMade>
           <CostStuffCount>1</CostStuffCount>
@@ -425,7 +425,7 @@
           </CostItems>
         </BeMade>
         <NotRandom>1</NotRandom>
-        <FabaoSuffix>卷</FabaoSuffix>				
+        <FabaoSuffix>卷</FabaoSuffix>
       </Item>
         <StoryBnts>
             <li Name="Examine" Desc="Examine the law" Story="Story_GD_Gong_Universe" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
