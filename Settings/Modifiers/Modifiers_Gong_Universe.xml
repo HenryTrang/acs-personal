@@ -79,7 +79,7 @@
 			<li Name="MaxAge" BAddV="200"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
 			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
-			<li Name="LingAbsorbSpeed" BAddP="1"/>
+			<li Name="LingAbsorbSpeed" BAddP="0.25"/>
 			<li Name="ComfyTMin" AddV="-10"/>
 			<li Name="ComfyTMax" AddV="30"/>	
 			<li Name="NutritionConsumeConstant" AddP="0.25"/>
@@ -100,7 +100,7 @@
 			<li Name="MaxAge" BAddV="300"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
 			<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
-			<li Name="LingAbsorbSpeed" BAddP="1"/>
+			<li Name="LingAbsorbSpeed" BAddP="0.25"/>
 			<li Name="ToleranceTMin" AddV="-15"/>
 			<li Name="ToleranceTMax" AddV="60"/>
 			<li Name="NutritionConsumeConstant" AddP="0.25"/>
@@ -138,7 +138,7 @@
 			<li Name="MaxAge" BAddV="50"/>
 			<li Name="MindStateBaseValue" AddV="5"/>
 			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
-			<li Name="LingAbsorbSpeed" BAddP="3"/>
+			<li Name="LingAbsorbSpeed" BAddP="0.75"/>
 			<li Name="NutritionConsumeConstant" AddP="1"/>
 			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
 			<li Name="NutritionToJingYuanK" AddV="0.1"/>
@@ -154,7 +154,7 @@
 		<Display>0</Display>
 		<Properties>  
 			<li Name="MaxAge" BAddV="50"/>
-			<li Name="MindStateBaseValue" AddV="20"/>
+			<li Name="MindStateBaseValue" AddV="10"/>
 			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
 			<li Name="IntelligenceSkillEXPConstant" BAddP="5"/>
 			<li Name="VisionRadius" AddP="1"/>
@@ -185,10 +185,10 @@
 		<Display>0</Display>
 		<Properties>  
 			<li Name="MaxAge" BAddV="500"/>
-			<li Name="MindStateBaseValue" AddV="20"/>
+			<li Name="MindStateBaseValue" AddV="10"/>
 			<li Name="NpcLingMaxValue" AddP="0.5"/>
 			<li Name="MaxAccumulativeLingAddV" AddV="3000"/>
-			<li Name="LingAbsorbSpeed" AddP="5"/>
+			<li Name="LingAbsorbSpeed" BAddP="0.75"/>
 			<li Name="AgeCostSpeed" AddP="-0.8"/>
 		</Properties>
 	</Modifier> 
@@ -201,10 +201,10 @@
 		<Display>0</Display>
 		<Properties>  
 			<li Name="MaxAge" BAddV="500"/>
-			<li Name="MindStateBaseValue" AddV="20"/>
+			<li Name="MindStateBaseValue" AddV="15"/>
 			<li Name="NpcLingMaxValue" AddP="0.5"/>
 			<li Name="MaxAccumulativeLingAddV" AddV="4000"/>
-			<li Name="LingAbsorbSpeed" AddP="5"/>
+			<li Name="LingAbsorbSpeed" AddP="1"/>
 			<li Name="AgeCostSpeed" AddP="-0.8"/>
 		</Properties>
 	</Modifier> 
